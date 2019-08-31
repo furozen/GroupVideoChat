@@ -1,14 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { XirsysGroupCallComponent } from './xirsys-group-call/xirsys-group-call.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    XirsysGroupCallComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,10 +1,20 @@
-# XirsysAngularGroupCall
+# XirSys example of Group Video Chat on Angular 8 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
+
+This project is just typescript/angular version of https://github.com/xirsys/xirsys-examples-v3/tree/master/app/public/group_video_chat client.
+
+Do not miss that it is just a client!
+you need run the original server from https://github.com/xirsys/xirsys-examples-v3 
+and make sure its adress in evnviroment.ts.
+
+
+
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+
 
 ## Code scaffolding
 
